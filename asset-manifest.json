@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/redux-saga-course/static/css/main.2d19d007.chunk.css",
+    "main.js": "/redux-saga-course/static/js/main.f660ac8f.chunk.js",
+    "main.js.map": "/redux-saga-course/static/js/main.f660ac8f.chunk.js.map",
+    "runtime-main.js": "/redux-saga-course/static/js/runtime-main.60f0033d.js",
+    "runtime-main.js.map": "/redux-saga-course/static/js/runtime-main.60f0033d.js.map",
+    "static/js/2.70d56a7d.chunk.js": "/redux-saga-course/static/js/2.70d56a7d.chunk.js",
+    "static/js/2.70d56a7d.chunk.js.map": "/redux-saga-course/static/js/2.70d56a7d.chunk.js.map",
+    "index.html": "/redux-saga-course/index.html",
+    "static/css/main.2d19d007.chunk.css.map": "/redux-saga-course/static/css/main.2d19d007.chunk.css.map",
+    "static/js/2.70d56a7d.chunk.js.LICENSE.txt": "/redux-saga-course/static/js/2.70d56a7d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60f0033d.js",
+    "static/js/2.70d56a7d.chunk.js",
+    "static/css/main.2d19d007.chunk.css",
+    "static/js/main.f660ac8f.chunk.js"
+  ]
+}
