@@ -1,0 +1,10 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+.item {
+    cursor: pointer;
+    padding-left: 15px;
+}

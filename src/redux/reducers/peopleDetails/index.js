@@ -1,28 +1,27 @@
-import { LOAD_USERS, LOAD_USERS_FAILURE, LOAD_USERS_SUCCESS } from './action';
+import {
+    LOAD_DETAILS,
+    LOAD_DETAILS_FAILURE,
+    LOAD_DETAILS_SUCCESS,
+} from './action';
 
-const initialStatePeople = {
-    page: 1,
-    search: '',
+const initialPeopleDetails = {
     loading: false,
     error: null,
     data: null,
 };
 
-export default function peopleReducer(
-    state = initialStatePeople,
+export default function peopleDetailsReducer(
+    state = initialPeopleDetails,
     { type, payload },
 ) {
     switch (type) {
-        case LOAD_USERS:
-            const { page, search } = payload;
+        case LOAD_DETAILS:
             return {
                 ...state,
                 loading: true,
-                page,
-                search,
             };
 
-        case LOAD_USERS_SUCCESS:
+        case LOAD_DETAILS_SUCCESS:
             return {
                 ...state,
                 loading: false,
@@ -30,7 +29,7 @@ export default function peopleReducer(
                 error: null,
             };
 
-        case LOAD_USERS_FAILURE:
+        case LOAD_DETAILS_FAILURE:
             return {
                 ...state,
                 loading: false,
